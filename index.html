@@ -29,6 +29,11 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
+		<style>
+			.slides {
+				font-size: 12px;
+			}
+		</style>
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -40,20 +45,11 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-						<section data-markdown="./mds/example.md"
-											data-separator="^\n\n\n"
-											data-separator-vertical="^\n\n"
-											data-separator-notes="^Note:"
-											data-charset="iso-8859-15">
-						</section>
-						<section data-markdown="./mds/example.md"
-											data-separator="^\n\n\n"
-											data-separator-vertical="^\n\n"
-											data-separator-notes="^Note:"
-											data-charset="iso-8859-15">
-						</section>
-				</section>
+				<section data-markdown="./mds/page-1.md"></section>
+				<section data-markdown="./mds/page-2.md"></section>
+				<section data-markdown="./mds/page-3.md"></section>
+				<section data-markdown="./mds/page-4.md"></section>
+				<section data-markdown="./mds/page-5.md"></section>
 				<section>
 					<h1>Reveal.js</h1>
 					<h3>HTML展现ppt效果的框架</h3>
